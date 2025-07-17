@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: simple-web
-          image: riveroverflow/simple-web
+          image: riveroverflow/simple-web:10
           ports:
             - containerPort: 80
